@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maple-Hub", "Maple-Hub\Maple-Hub.csproj", "{1559B785-73E0-4221-97F7-9C3F7904C1C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maple-Hub.Logic", "Maple-Hub.Logic\Maple-Hub.Logic.csproj", "{C7B8EDED-FFB9-46C1-A883-BBEB669F400F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maple-Hub.DAL", "Maple-Hub.DAL\Maple-Hub.DAL.csproj", "{4838E487-89E8-4841-981D-1D206DF6F8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maple-HubTests", "Maple-HubTests\Maple-HubTests.csproj", "{C976E8FB-A563-4929-82A7-E51F650C854D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1559B785-73E0-4221-97F7-9C3F7904C1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1559B785-73E0-4221-97F7-9C3F7904C1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1559B785-73E0-4221-97F7-9C3F7904C1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1559B785-73E0-4221-97F7-9C3F7904C1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B8EDED-FFB9-46C1-A883-BBEB669F400F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B8EDED-FFB9-46C1-A883-BBEB669F400F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B8EDED-FFB9-46C1-A883-BBEB669F400F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B8EDED-FFB9-46C1-A883-BBEB669F400F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4838E487-89E8-4841-981D-1D206DF6F8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4838E487-89E8-4841-981D-1D206DF6F8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4838E487-89E8-4841-981D-1D206DF6F8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4838E487-89E8-4841-981D-1D206DF6F8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C976E8FB-A563-4929-82A7-E51F650C854D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C976E8FB-A563-4929-82A7-E51F650C854D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C976E8FB-A563-4929-82A7-E51F650C854D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C976E8FB-A563-4929-82A7-E51F650C854D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F2BA830-0627-4D76-AD87-E56049D657E3}
+	EndGlobalSection
+EndGlobal
