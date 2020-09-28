@@ -1,0 +1,16 @@
+﻿<link rel="stylesheet" href="~/css/MapleHub.css" />
+
+@{
+    ViewData["Title"] = "GuideSubmit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    Title<br />
+    <input type="text" id="titel" />
+    <br />
+    <br />
+    Content<br />
+    <textarea id="inhoud"></textarea><br />
+    <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Guides","MapleHub")'">Submit Guide</button>
+
+</div>

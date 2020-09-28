@@ -38,6 +38,15 @@ namespace Maple_Hub.Controllers
             return View();
         }
 
+        public IActionResult Guide()
+        {
+            return View();
+        }
+        public IActionResult GuideSubmit()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
